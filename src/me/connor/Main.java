@@ -13,11 +13,7 @@ public class Main {
 
         // "new AppFrame();" returns an instance of AppFrame (the entire class)
         // The "new" keyword calls the constructor of any non-static class.
-        AppFrame appFrame = new AppFrame();
-
-        // Make appFrame visible...
-        appFrame.setVisible(true);
-
+        new Details();
 
         // This variable is null, it has no definition, or "value."
         // AppFrame iDeclaredThis;
